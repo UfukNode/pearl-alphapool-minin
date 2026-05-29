@@ -1,8 +1,8 @@
 # Pearl Miner Rehberi !
 
-Bu rehber [AlphaMiner](https://github.com/AlphaMine-Tech/alpha-miner) ile AlphaPool üzerinden Pearl (PRL) kazımı içindir. Buradan yapma sebebimiz ise h100/h200 gibi cihazların herkes tarafından maliyetinin karşılanamayacak olmasıdır.
+Bu rehber [AlphaMiner](https://github.com/AlphaMine-Tech/alpha-miner) ile AlphaPool üzerinden Pearl (PRL) kazımı içindir. Bu yöntemi kullanma sebebimiz, resmi full node / vLLM miner tarafında H100/H200 gibi pahalı cihazlara ihtiyaç duyulabilmesi ve bunun herkes için ulaşılabilir olmamasıdır. Bu rehber, kullanmadığınız veya içinde önemli bilgiler bulundurmadığınız cihazlarla Pearl mining denemek isteyenler içindir.
 
-Bu yöntem full node kurmak değildir. Cihazındaki GPU doğrudan AlphaPool’a bağlanır, verilen işleri çözer ve kazancı Pearl cüzdan adresine gönderilir. Yani 70B model, vLLM veya kendi node kurulumu gerekmez.
+Güvenlik açısından miner’a sadece public Pearl cüzdan adresi verilir. Private key, seed phrase veya cüzdan şifresi kesinlikle kullanılmaz. Mümkünse ana cihaz yerine WSL2 Ubuntu, boş/ikinci cihaz veya cloud sunucu kullanmanız daha sağlıklı olur. Amaç, cihazınızdaki GPU’yu AlphaPool’a bağlayarak PRL kazımı yapmak. 3060/3070 gibi kartlarla günlük 4-5 dolar bile gelir oluşursa, cihaz boşta duracağına değerlendirilebilir. Kazanç PRL fiyatına, pool performansına ve elektrik/cloud maliyetine göre değişir.
 
 ---
 
@@ -36,6 +36,10 @@ Kontrol:
 ```bash
 nvidia-smi
 ```
+
+GPU örnekleri:
+
+<img width="1257" height="455" alt="image" src="https://github.com/user-attachments/assets/2abe9418-6ef8-4c53-930f-b07851eb8f36" />
 
 ---
 
