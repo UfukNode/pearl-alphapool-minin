@@ -37,7 +37,7 @@ Kontrol:
 nvidia-smi
 ```
 
-GPU örnekleri:
+GPU performans örnekleri:
 
 <img width="1257" height="455" alt="image" src="https://github.com/user-attachments/assets/2abe9418-6ef8-4c53-930f-b07851eb8f36" />
 
