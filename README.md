@@ -2,7 +2,7 @@
 
 Bu rehber [AlphaMiner](https://github.com/AlphaMine-Tech/alpha-miner) ile AlphaPool üzerinden Pearl (PRL) kazımı içindir. Bu yöntemi kullanma sebebimiz, resmi full node / vLLM miner tarafında H100/H200 gibi pahalı cihazlara ihtiyaç duyulabilmesi ve bunun herkes için ulaşılabilir olmamasıdır. Bu rehber, kullanmadığınız veya içinde önemli bilgiler bulundurmadığınız cihazlarla Pearl mining denemek isteyenler içindir.
 
-Güvenlik açısından miner’a sadece public Pearl cüzdan adresi verilir. Private key, seed phrase veya cüzdan şifresi kesinlikle kullanılmaz. Mümkünse ana cihaz yerine WSL2 Ubuntu, boş/ikinci cihaz veya cloud sunucu kullanmanız daha sağlıklı olur. Amaç, cihazınızdaki GPU’yu AlphaPool’a bağlayarak PRL kazımı yapmak. 3060/3070 gibi kartlarla günlük 4-5 dolar bile gelir oluşursa, cihaz boşta duracağına değerlendirilebilir. Kazanç PRL fiyatına, pool performansına ve elektrik/cloud maliyetine göre değişir.
+⚠️ Güvenlik açısından miner’a sadece public Pearl cüzdan adresi verilir. Private key, seed phrase veya cüzdan şifresi kesinlikle kullanılmaz. Mümkünse ana cihaz yerine WSL2 Ubuntu, boş/ikinci cihaz veya cloud sunucu kullanmanız daha sağlıklı olur. Amaç, cihazınızdaki GPU’yu AlphaPool’a bağlayarak PRL kazımı yapmak. 3060/3070 gibi kartlarla günlük 4-5 dolar bile gelir oluşursa, cihaz boşta duracağına değerlendirilebilir. Kazanç PRL fiyatına, pool performansına ve elektrik/cloud maliyetine göre değişir.
 
 ---
 
@@ -39,7 +39,8 @@ nvidia-smi
 
 GPU performans örnekleri:
 
-<img width="1257" height="455" alt="image" src="https://github.com/user-attachments/assets/2abe9418-6ef8-4c53-930f-b07851eb8f36" />
+<img width="1257" height="455" alt="image" src="https://github.com/user-attachments/assets/2abe9418-6ef8-4c53-930f-b07851eb8f36" /><img width="1419" height="422" alt="Adsız tasarım" src="https://github.com/user-attachments/assets/8d66fe91-0165-4a66-83d5-c052b07d7f82" />
+
 
 ---
 
@@ -52,6 +53,8 @@ Adres örneği:
 ```text
 prl1p...
 ```
+
+<img width="1419" height="422" alt="Adsız tasarım" src="https://github.com/user-attachments/assets/20d454fd-f4f8-4eb1-a932-0b918851cf52" />
 
 ---
 
@@ -140,7 +143,7 @@ Ctrl+C
 
 ---
 
-# ⚠️Güvenlik notları !
+# ⚠️ Güvenlik notları !
 
 - Bu resmi Pearl repo miner'ı değil, third-party AlphaPool miner'ıdır.
 - Sadece public wallet adresi verilir; seed phrase/private key verilmez.
