@@ -39,8 +39,7 @@ nvidia-smi
 
 GPU performans örnekleri:
 
-<img width="1257" height="455" alt="image" src="https://github.com/user-attachments/assets/2abe9418-6ef8-4c53-930f-b07851eb8f36" /><img width="1419" height="422" alt="Adsız tasarım" src="https://github.com/user-attachments/assets/8d66fe91-0165-4a66-83d5-c052b07d7f82" />
-
+<img width="1257" height="455" alt="image" src="https://github.com/user-attachments/assets/2abe9418-6ef8-4c53-930f-b07851eb8f36" />
 
 ---
 
